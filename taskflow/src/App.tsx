@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import MainContent from './components/MainContent';
-
+// test
 const projects = [
   { id: '1', name: 'Site E-commerce', color: '#e74c3c' },
   { id: '2', name: 'App Mobile', color: '#3498db' },
