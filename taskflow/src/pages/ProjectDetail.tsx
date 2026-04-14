@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Navigate } from 'react-router-dom';
 import { useAuth } from '../features/auth/useAuth';
 import api from '../api/axios';
-import Header from '../components/Header';
+import HeaderMUI from '../components/HeaderMUI';
 import styles from './ProjectDetail.module.css';
 
 interface Project {
@@ -40,7 +40,7 @@ function ProjectDetailContent({ id }: { id: string }) {
 
   return (
     <div className={styles.layout}>
-      <Header
+      <HeaderMUI
         title="TaskFlow"
         onMenuClick={() => navigate('/dashboard')}
         userName={authState.user?.name}
