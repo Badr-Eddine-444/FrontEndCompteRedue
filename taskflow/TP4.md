@@ -30,7 +30,7 @@ Dans ce projet, l’UI principale utilise **MUI** (`HeaderMUI`, `LoginMUI`). Les
 
 ---
 
-## Partie 3 — Header Bootstrap
+## Partie 3 — Header  Bootstrap
 
 - Dépendances : `react-bootstrap`, `bootstrap`
 - Import global dans `src/main.tsx` : `import 'bootstrap/dist/css/bootstrap.min.css';`
