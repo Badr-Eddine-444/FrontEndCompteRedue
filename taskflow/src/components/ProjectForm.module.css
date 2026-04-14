@@ -1,0 +1,63 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.input {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  min-width: 160px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #1b8c3e;
+  box-shadow: 0 0 0 2px rgba(27, 140, 62, 0.2);
+}
+
+.colorPicker {
+  width: 40px;
+  height: 36px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.submit {
+  padding: 0.5rem 1rem;
+  background: #1b8c3e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.submit:hover:not(:disabled) {
+  background: #157a33;
+}
+
+.submit:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.cancel {
+  padding: 0.5rem 1rem;
+  background: #ccc;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.cancel:hover {
+  background: #bbb;
+}

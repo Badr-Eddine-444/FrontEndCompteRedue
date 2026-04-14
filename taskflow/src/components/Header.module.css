@@ -3,12 +3,18 @@
   justify-content: space-between;
   align-items: center;
   height: 56px;
-  background: #1B8C3E;
+  background: #1b8c3e;
   color: white;
   padding: 0 20px;
 }
 
 .left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.right {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -26,6 +32,20 @@
 
 .menuBtn:hover {
   background: rgba(255, 255, 255, 0.15);
+}
+
+.logoutBtn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.logoutBtn:hover {
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .logo {
